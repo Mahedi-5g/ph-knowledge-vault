@@ -1,7 +1,62 @@
-h1{
-    text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
 }
 
-title{
-    color: bisque;
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 120px;
 }
+
+
+ul {
+    display: flex;
+    gap: 32px;
+    padding-top: 12px;
+
+}
+
+li {
+    list-style: none;
+
+
+}
+
+li>a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.primary button {
+    
+    color: white;
+    padding: 12px 16px;
+    font-style: Semi Bold;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 4px;
+   background:#30B868;
+   border-color:cadetblue;
+}
+
+.primary button:hover{
+    background-color: #587464;
+}
+
+.banner{
+    height: 500px;
+
+}
+.banner-img{
+    background-image: url(./utility/Sections/Banner.png);
+    width: 100%;
+    height: 100%;
+}
+
